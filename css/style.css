@@ -1,27 +1,24 @@
 
-:root{
-    
+:root{ 
+    --color1: #7C9070;
+    --color2:#C1D0B5;
+    --color3:#D6E8DB;
+}
+body{
+    background-color: var(--color3);
+    color: var(--color1);
+    font-size: 20px;
+    text-align: center ;
+}
+body h1 {
+    font-size: 30px;
 }
 
-.header {
-    
-}
-.section {
-   
-}
-
-
-
-
-
-
-
-
-
-
-
-.footer {
-    footertext-align: center;
+.rodape {
+    text-align: center;
     font-style: italic; 
+    background-color: var(--color2);
+    padding: 1px;
+    font-size: 15px;
 }
 
